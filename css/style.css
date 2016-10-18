@@ -15,8 +15,9 @@ body{
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size:cover;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     text-align: center;
+    overflow:hidden;
 }
 
 #main h1{
@@ -47,10 +48,11 @@ body{
 #sec{
     text-align: center;
     padding: 2%;
+    background: #f2f2f2;
 }
 
     #sec h3{
-        margin: 10%;
+        margin: 3%;
     }
 
     #sec h3:after{
@@ -90,6 +92,9 @@ body{
     /*- -- - - - - - - - - THIRD - - - - - - - - -*/
 #third{
     background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover;
     padding: 10% 25% 5% 25%;
     text-align: center;
 }
@@ -119,8 +124,25 @@ body{
     }
 
 
+/*- - -- - - - - - - - -FOURTH - - - - - - - */
+#fourth{
+    text-align: center;
+    padding: 2%;
+    background: #f2f2f2;
+}
 
+#fourth h3{
+    margin: 3%;
+}
 
+#fourth h3:after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 30%;
+    margin: 10px auto;
+    background: darkgrey;
+}
 
 
 
@@ -139,9 +161,10 @@ body{
         padding: 5%;
     }
 
-    #main a{
-        width: 30%;
-        margin: 2% auto;
+    #main a,
+    #third a{
+        width: 40%;
+        margin: 9% auto;
     }
 
     #sec h3:after{
