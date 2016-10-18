@@ -79,12 +79,53 @@ body{
 
     #sec .post{
         display: inline-block;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     #sec h6{
         font-size: 16px;
     }
+
+
+    /*- -- - - - - - - - - THIRD - - - - - - - - -*/
+#third{
+    background-image: url(img/background2.jpg);
+    padding: 10% 25% 5% 25%;
+    text-align: center;
+}
+
+    #third h2{
+        color: white;
+
+    }
+
+    #third a{
+        display: block;
+        border: 2px solid white;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        border-radius: 10%;
+        width: 20%;
+        margin: 7% auto 4% auto;
+        text-transform: uppercase;
+        padding: .4%;
+        color: white;
+    }
+
+    #third a:hover{
+        background: white;
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
