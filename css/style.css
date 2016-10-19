@@ -19,6 +19,7 @@ body{
     text-align: center;
     overflow:hidden;
 }
+
 #main h1{
     color: white;
     padding: 15% 25% 5% 25%;
@@ -27,13 +28,13 @@ body{
 #main a{
     display: block;
     border: 2px solid white;
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
-    width: 120px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+    width: 9%;
     margin: 0 auto 4% auto;
     text-transform: uppercase;
-    padding: 10px;
+    padding: .4%;
     color: white;
 }
 
@@ -75,17 +76,16 @@ body{
 
     #sec p{
         width: 250px;
+        margin: auto;
     }
 
     #sec .post{
         display: inline-block;
-        margin: auto;
-        text-align: left;
+        /*text-align: center;*/
     }
 
     #sec h6{
         font-size: 16px;
-        padding: 10px 0 5px 0;
     }
 
 
@@ -107,13 +107,13 @@ body{
     #third a{
         display: block;
         border: 2px solid white;
-        -webkit-border-radius: 9px;
-        -moz-border-radius: 9px;
-        border-radius: 9px;
-        width: 120px;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        border-radius: 10%;
+        width: 20%;
         margin: 7% auto 4% auto;
         text-transform: uppercase;
-        padding: 10px;
+        padding: .4%;
         color: white;
     }
 
@@ -131,55 +131,19 @@ body{
     background: #f2f2f2;
 }
 
-    #fourth h3{
-        margin: 3%;
-    }
+#fourth h3{
+    margin: 3%;
+}
 
-    #fourth h3:after{
-        content: "";
-        display: block;
-        height: 1px;
-        width: 30%;
-        margin: 10px auto;
-        background: darkgrey;
-    }
+#fourth h3:after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 30%;
+    margin: 10px auto;
+    background: darkgrey;
+}
 
-    #fourth .pic{
-        width: 30%;
-        text-align: center;
-        display: inline-block;
-    }
-    
-    #fourth img{
-        width: 300px;
-        height: 200px;
-    }
-
-    #fourth h6{
-        display: block;
-    }
-
-    #fourth a{
-        text-transform: uppercase;
-        display: block;
-        width: 200px;
-        color: #fff;
-        letter-spacing: 1px;
-        border: 1px solid #74c9be;
-        background: #74c9be;
-        padding: 7px;
-        margin: 20px auto; /*nie działa chujstwo*/
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-    }
-
-    #fourth a:hover{
-        border: 1px solid #000;
-        background: inherit;
-        color: #000;
-        text-decoration: none;
-    }
 
 
 
@@ -197,18 +161,13 @@ body{
         padding: 5%;
     }
 
-    /*#main a,*/
-    /*#third a{*/
-        /*width: 40%;*/
-        /*margin: 9% auto;*/
-    /*}*/
+    #main a,
+    #third a{
+        width: 40%;
+        margin: 9% auto;
+    }
 
     #sec h3:after{
         width: 70%;
-    }
-
-    #fourth .pic{
-        width: 90%;
-        margin: auto;
     }
 }
