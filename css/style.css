@@ -30,10 +30,11 @@ body{
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
+    width: 120px;
     width: 9%;
     margin: 0 auto 4% auto;
     text-transform: uppercase;
-    padding: .4%;
+    padding: 10px;
     color: white;
 }
 
@@ -111,10 +112,11 @@ body{
         -webkit-border-radius: 9px;
         -moz-border-radius: 9px;
         border-radius: 9px;
+        width: 120px;
         width: 20%;
         margin: 7% auto 4% auto;
         text-transform: uppercase;
-        padding: .4%;
+        padding: 10px;
         color: white;
     }
 
@@ -145,6 +147,43 @@ body{
         background: darkgrey;
     }
 
+    #fourth .pic{
+        width: 30%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    #fourth img{
+        width: 300px;
+        height: 200px;
+    }
+
+    #fourth h6{
+        display: block;
+    }
+
+    #fourth a{
+        text-transform: uppercase;
+        display: block;
+        width: 200px;
+        color: #fff;
+        letter-spacing: 1px;
+        border: 1px solid #74c9be;
+        background: #74c9be;
+        padding: 7px;
+        margin: 20px auto; /*nie działa chujstwo*/
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    #fourth a:hover{
+        border: 1px solid #000;
+        background: inherit;
+        color: #000;
+        text-decoration: none;
+    }
+
     #fourth img{
         display: inline;
         width: 320px;
@@ -162,18 +201,24 @@ body{
 
 
 
+
 @media (max-width: 750px){
     #main h1{
         padding: 5%;
     }
 
-    #main a,
-    #third a{
-        width: 40%;
-        margin: 9% auto;
-    }
+    /*#main a,*/
+    /*#third a{*/
+        /*width: 40%;*/
+        /*margin: 9% auto;*/
+    /*}*/
 
     #sec h3:after{
         width: 70%;
+    }
+
+    #fourth .pic{
+        width: 90%;
+        margin: auto;
     }
 }
