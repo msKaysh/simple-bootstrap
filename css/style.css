@@ -19,7 +19,6 @@ body{
     text-align: center;
     overflow:hidden;
 }
-
 #main h1{
     color: white;
     padding: 15% 25% 5% 25%;
@@ -28,9 +27,9 @@ body{
 #main a{
     display: block;
     border: 2px solid white;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    border-radius: 10%;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
     width: 9%;
     margin: 0 auto 4% auto;
     text-transform: uppercase;
@@ -76,16 +75,18 @@ body{
 
     #sec p{
         width: 250px;
-        margin: auto;
+        /*margin: 15px auto;*/
     }
 
     #sec .post{
         display: inline-block;
-        /*text-align: center;*/
+        margin: auto;
+        text-align: left;
     }
 
     #sec h6{
         font-size: 16px;
+        padding: 10px 0 5px 0;
     }
 
 
@@ -107,9 +108,9 @@ body{
     #third a{
         display: block;
         border: 2px solid white;
-        -webkit-border-radius: 10%;
-        -moz-border-radius: 10%;
-        border-radius: 10%;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        border-radius: 9px;
         width: 20%;
         margin: 7% auto 4% auto;
         text-transform: uppercase;
@@ -131,19 +132,24 @@ body{
     background: #f2f2f2;
 }
 
-#fourth h3{
-    margin: 3%;
-}
+    #fourth h3{
+        margin: 3%;
+    }
 
-#fourth h3:after{
-    content: "";
-    display: block;
-    height: 1px;
-    width: 30%;
-    margin: 10px auto;
-    background: darkgrey;
-}
+    #fourth h3:after{
+        content: "";
+        display: block;
+        height: 1px;
+        width: 30%;
+        margin: 10px auto;
+        background: darkgrey;
+    }
 
+    #fourth img{
+        display: inline;
+        width: 320px;
+        height: 213px;
+        }
 
 
 
