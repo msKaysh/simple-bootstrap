@@ -64,9 +64,8 @@ body{
     }
 
     #sec img{
-        width: 300px;
-        height: 250px;
-        margin: 1%;
+        width: 320px;
+        height: 240px;
     }
 
     #sec article{
@@ -74,13 +73,14 @@ body{
     }
 
     #sec p{
-        width: 250px;
-        /*margin: 15px auto;*/
+        width: 320px;
+        text-align: justify;
+        text-align-last: center;
     }
 
     #sec .post{
         display: inline-block;
-        margin: auto;
+        padding: 3%;
         text-align: left;
     }
 
@@ -149,6 +149,7 @@ body{
         width: 30%;
         text-align: center;
         display: inline-block;
+        padding: 2%;
     }
     
     #fourth img{
@@ -158,7 +159,20 @@ body{
 
     #fourth h6{
         display: block;
+        text-transform: uppercase;
+        padding: 5%;
     }
+
+    #fourth h6:after{
+        content: '  ♡';
+        font-size: 25px;
+    }
+
+    #fourth h6:hover:after{
+        color: red;
+        cursor: pointer;
+    }
+
 
     #fourth a{
         text-transform: uppercase;
