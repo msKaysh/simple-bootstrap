@@ -10,7 +10,7 @@ body{
 }
 
 /*- - - - - - -MAIN - - - - - -*/
-#main{
+#intro{
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -19,12 +19,12 @@ body{
     text-align: center;
     overflow:hidden;
 }
-#main h1{
+#intro h1{
     color: white;
     padding: 15% 25% 5% 25%;
 }
 
-#main a{
+#intro a{
     display: block;
     border: 2px solid white;
     -webkit-border-radius: 9px;
@@ -37,61 +37,61 @@ body{
     color: white;
 }
 
-    #main a:hover{
+    #intro a:hover{
         background: white;
         color: black;
         text-decoration: none;
     }
 
 /*- - - - - - -SEC - - - - - -*/
-#sec{
+#about{
     text-align: center;
     padding: 2%;
     background: #f2f2f2;
 }
 
-    #sec h3{
+    #about h3{
         margin: 3%;
     }
 
-    #sec h3:after{
+    #about h3:after{
         content: "";
         display: block;
         height: 1px;
-        width: 30%;
+        width: 200px;
         margin: 10px auto;
         background: darkgrey;
     }
 
-    #sec img{
+    #about img{
         width: 320px;
         height: 240px;
     }
 
-    #sec article{
+    #about article{
         margin: auto;
     }
 
-    #sec p{
+    #about p{
         width: 320px;
         text-align: justify;
         text-align-last: center;
     }
 
-    #sec .post{
+    #about .post{
         display: inline-block;
         padding: 3%;
         text-align: left;
     }
 
-    #sec h6{
+    #about h6{
         font-size: 16px;
         padding: 10px 0 5px 0;
     }
 
 
     /*- -- - - - - - - - - THIRD - - - - - - - - -*/
-#third{
+#sec-intro{
     background-image: url(img/background2.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -100,12 +100,13 @@ body{
     text-align: center;
 }
 
-    #third h2{
+    #sec-intro h2{
         color: white;
+        /*padding: 15% 25% 5% 25%*/
 
     }
 
-    #third a{
+    #sec-intro a{
         display: block;
         border: 2px solid white;
         -webkit-border-radius: 9px;
@@ -118,7 +119,7 @@ body{
         color: white;
     }
 
-    #third a:hover{
+    #sec-intro a:hover{
         background: white;
         color: black;
         text-decoration: none;
@@ -126,55 +127,55 @@ body{
 
 
 /*- - -- - - - - - - - -FOURTH - - - - - - - */
-#fourth{
+#works{
     text-align: center;
     padding: 2%;
     background: #f2f2f2;
 }
 
-    #fourth h3{
+    #works h3{
         margin: 3%;
     }
 
-    #fourth h3:after{
+    #works h3:after{
         content: "";
         display: block;
         height: 1px;
-        width: 30%;
+        width: 170px;
         margin: 10px auto;
         background: darkgrey;
     }
 
-    #fourth .pic{
+    #works .pic{
         width: 30%;
         text-align: center;
         display: inline-block;
         padding: 2%;
     }
     
-    #fourth img{
+    #works img{
         width: 300px;
         height: 200px;
     }
 
-    #fourth h6{
+    #works h6{
         display: block;
         text-transform: uppercase;
         padding: 5%;
     }
 
-    #fourth h6:after{
+    #works h6:after{
         content: '  ♡';
         font-size: 25px;
     }
 
-    #fourth h6:hover:after{
+    #works h6:hover:after{
         color: red;
         cursor: pointer;
     }
 
 
-    #fourth a{
+    #works a{
         text-transform: uppercase;
         display: block;
         width: 200px;
@@ -189,14 +190,14 @@ body{
         border-radius: 5px;
     }
 
-    #fourth a:hover{
+    #works a:hover{
         border: 1px solid #000;
         background: inherit;
         color: #000;
         text-decoration: none;
     }
 
-    #fourth img{
+    #works img{
         display: inline;
         width: 320px;
         height: 213px;
@@ -215,7 +216,7 @@ body{
 
 
 @media (max-width: 750px){
-    #main h1{
+    #intro h1{
         padding: 5%;
     }
 
@@ -225,11 +226,11 @@ body{
         /*margin: 9% auto;*/
     /*}*/
 
-    #sec h3:after{
+    #about h3:after{
         width: 70%;
     }
 
-    #fourth .pic{
+    #works .pic{
         width: 90%;
         margin: auto;
     }
