@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 
-/*- - - - - - -MAIN - - - - - -*/
+/*- - - - - - -INTRO - - - - - -*/
 #intro{
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body{
         text-decoration: none;
     }
 
-/*- - - - - - -SEC - - - - - -*/
+/*- - - - - - -ABOUT - - - - - -*/
 #about{
     text-align: center;
     padding: 2%;
@@ -90,7 +90,7 @@ body{
     }
 
 
-    /*- -- - - - - - - - - THIRD - - - - - - - - -*/
+    /*- -- - - - - - - - - SEC_INTRO - - - - - - - - -*/
 #sec-intro{
     background-image: url(img/background2.jpg);
     background-repeat: no-repeat;
@@ -102,8 +102,6 @@ body{
 
     #sec-intro h2{
         color: white;
-        /*padding: 15% 25% 5% 25%*/
-
     }
 
     #sec-intro a{
@@ -126,7 +124,7 @@ body{
     }
 
 
-/*- - -- - - - - - - - -FOURTH - - - - - - - */
+/*- - -- - - - - - - - -WORKS - - - - - - - */
 #works{
     text-align: center;
     padding: 2%;
@@ -147,10 +145,11 @@ body{
     }
 
     #works .pic{
-        width: 30%;
+        width: 330px;
         text-align: center;
         display: inline-block;
         padding: 2%;
+        margin: auto;
     }
     
     #works img{
@@ -174,7 +173,6 @@ body{
         cursor: pointer;
     }
 
-
     #works a{
         text-transform: uppercase;
         display: block;
@@ -197,11 +195,58 @@ body{
         text-decoration: none;
     }
 
-    #works img{
-        display: inline;
-        width: 320px;
-        height: 213px;
-        }
+/*- - - - - - - - - - - - WORK PROCESS - - - - - -- - - - - */
+#work-process{
+    background: #333;
+    color: #fff;
+}
+
+    #work-process h3:after{
+        content: "";
+        display: block;
+        height: 1px;
+        width: 180px;
+        margin: 10px auto;
+        background: darkgrey;
+    }
+
+    #work-process h3{
+        padding-top: 2%;
+        text-align: center;
+    }
+
+    #work-process p{
+        width: 60%;
+        padding: 3%;
+        margin: auto;
+    }
+
+
+
+/*- - - - - - - - - - - - - - BRANDS & CLIENTS- - - - - - - - */
+#brands{
+    text-align: center;
+}
+
+    #brands h3{
+        margin: 3%;
+    }
+
+
+    #brands h3:after{
+        content: "";
+        display: block;
+        height: 1px;
+        width: 160px;
+        margin: 10px auto;
+        background: darkgrey;
+}
+
+    #brands img{
+        margin: 2%;
+    }
+
+
 
 
 
@@ -234,4 +279,10 @@ body{
         width: 90%;
         margin: auto;
     }
+
+    #work-process p{
+        width: 90%;
+        margin: auto;
+    }
+
 }
