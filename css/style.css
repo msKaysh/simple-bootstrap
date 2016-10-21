@@ -51,7 +51,7 @@ body{
 }
 
     #about h3{
-        margin: 3%;
+        padding: 3%;
     }
 
     #about h3:after{
@@ -321,8 +321,8 @@ input[type="submit"]{
 
     /*#main a,*/
     /*#third a{*/
-        /*width: 40%;*/
-        /*margin: 9% auto;*/
+    /*width: 40%;*/
+    /*margin: 9% auto;*/
     /*}*/
 
     #about h3:after{
